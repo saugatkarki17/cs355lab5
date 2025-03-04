@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #345;
+    color: #ccc;
+    font-size: 16pt;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+div {
+    padding: 1rem;
+    margin: 1rem;
+}
+button {
+    font-size: 16pt;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(233, 186, 186);
+    width: 100%;
+    border-radius: 2%;
+    height: 3rem;
+    cursor:pointer;
+}
+button:hover {
+background-color: rgb(198, 207, 216);
+}
+button:active {
+background-color: rgb(111, 129, 147);
+}
+textarea {
+    font-size: 16pt;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    width: 100%;
+    border-radius: 2%;
+    height: 5rem;
+    padding: 1rem;
+
+}
